@@ -1,6 +1,6 @@
-\documentclass[PMO,authoryear,toc]{lsstdoc}
+\documentclass[PMO,authoryear,lsstdraft,toc]{lsstdoc}
 % lsstdoc documentation: https://lsst-texmf.lsst.io/lsstdoc.html
-\input{meta}
+% \input{meta}
 
 % Package imports go here.
 
@@ -16,13 +16,13 @@
 % \setDocSubtitle{A subtitle}
 
 \author{%
-Cristian Silva
+Cristian Silva, Patrick Ingraham
 }
 
 \setDocRef{ITTN-059}
 \setDocUpstreamLocation{\url{https://github.com/lsst-it/ittn-059}}
 
-\date{\vcsDate}
+\date {\today}
 
 % Optional: name of the document's curator
 % \setDocCurator{The Curator of this Document}
@@ -36,7 +36,7 @@ Procedure of IT maintenance window.
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{YYYY-MM-DD}{Unreleased.}{Cristian Silva}
+  \addtohist{1}{2022-03-29}{Initial version.}{Cristian Silva}
 }
 
 
@@ -49,6 +49,8 @@ Procedure of IT maintenance window.
 
 % ADD CONTENT HERE
 % You can also use the \input command to include several content files.
+\input{content.tex}
+
 
 \appendix
 % Include all the relevant bib files.
