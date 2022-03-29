@@ -1,0 +1,9 @@
+% bibentry template for lsst.bib in https://github.com/lsst/lsst-texmf/blob/main/texmf/bibtex/bib/lsst.bib
+
+@DocuShare{ITTN-059,
+   author = { Cristian Silva },
+    title = {Maintenance Window},
+     year = 2022,
+    month = Mar,
+   handle = {ITTN-059},
+      url = {https://ittn-059.lsst.io } }
